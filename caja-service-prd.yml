@@ -1,0 +1,6 @@
+server:
+  port: ${PORT:9998}
+  
+message: Caja Configuration server is alive for PRD!
+bills: ["Mil","DosMil","CincoMil","DiezMil","VeinteMil","CincuentaMil","CienMil"]
+balanceMax: 20800100  
