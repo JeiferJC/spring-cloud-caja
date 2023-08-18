@@ -1,0 +1,16 @@
+private void getBills(){
+        System.out.println("Los billetes permitidos son: ");
+        for (String bill: bills){
+            System.out.print(", "+ bill);
+        }
+        System.out.println("La cantidad maxima que se puede tener es: "+ balanceMax + " pesos");
+        System.out.println(message);
+        System.out.println(globalMessage);
+    }
+	
+	instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+	
+	
+	SELECT COUNT(*) FROM clientes WHERE cedulaident = paramCedula
+	
+IF (SELECT COUNT(*) FROM clientes WHERE cedulaident = paramCedula) = 0 THEN
