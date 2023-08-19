@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:8285}
+  port: ${PORT:9998}
   
 message: Caja Configuration server is alive for PRD!
 bills: Mil,DosMil,CincoMil,DiezMil,VeinteMil,CincuentaMil,CienMil
